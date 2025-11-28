@@ -42,7 +42,7 @@ jobs:
       name: production
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout repo
